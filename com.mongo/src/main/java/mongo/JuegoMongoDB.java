@@ -93,8 +93,9 @@ public class JuegoMongoDB {
 		
 		//DELETE
 
-		db.getCollection("Juegos").deleteMany(new Document("genero", "mundo abierto"));
-		
+//		db.getCollection("Juegos").deleteMany(new Document("genero", "mundo abierto"));
+	
+		db.
 	}
 
 }
