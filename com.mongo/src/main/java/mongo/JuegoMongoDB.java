@@ -61,9 +61,9 @@ public class JuegoMongoDB {
 		// FIND
 		
 //		Bson projection = fields(exclude("_id"), include("titulo"));
-		
+//		
 // FindIterable<Document> result = db.getCollection("Juegos").find(eq("genero", "mundo abierto")).projection(projection).sort(ascending("titulo"));
-		
+//		
 //		
 //		
 //		Iterator it = result.iterator();
@@ -95,7 +95,7 @@ public class JuegoMongoDB {
 
 //		db.getCollection("Juegos").deleteMany(new Document("genero", "mundo abierto"));
 	
-		db.
+		
 	}
 
 }
